@@ -47,7 +47,7 @@ def main(cli_args):
 	os.makedirs(output_dir, exist_ok=True)
 	args.output_dir = output_dir
 
-	# Logger 설정
+	# Logger 설정 
 	create_logger(args.output_dir)
 
 	# Tokenizer 생성
